@@ -1,5 +1,8 @@
 package april18;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class WrapperTypes {
 
 
@@ -47,8 +50,19 @@ public class WrapperTypes {
 
         Integer integer = Integer.valueOf("25"); //returns wrapper obj
 
+        List<Integer> list = new ArrayList<>();
+
+
+        list.add(new Integer(34));
+        list.add(89);
+
+
+
 
 
 
     }
+
+
+
 }
