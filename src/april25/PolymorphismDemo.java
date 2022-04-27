@@ -1,8 +1,10 @@
 package april25;
 
+import april27.Animal;
+import april27.Cat;
+
 import java.util.ArrayList;
 import java.util.List;
-import java.util.Scanner;
 
 public class PolymorphismDemo {
 
