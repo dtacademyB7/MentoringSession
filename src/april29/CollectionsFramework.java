@@ -28,16 +28,33 @@ public class CollectionsFramework {
 
         names.add("Xavier");
 
+        names.add("Alex");
+        names.add("Yolo");
+
         System.out.println(names);
 
-//         names.get();
+//         names.get(2);
 
         // iterate through a set
-        Iterator<String> iterator = names.iterator();
 
-         while(iterator.hasNext()){
-             System.out.println(iterator.next());
-         }
+
+        Iterator<String> iterator = names.iterator();
+//
+//         while(iterator.hasNext()){
+//             System.out.println(iterator.next());
+//         }
+
+
+//        iterator.next();
+//        iterator.next();
+//        String next = iterator.next();
+
+//        System.out.println(next);
+
+
+        for (String name : names) {
+            System.out.println(name);
+        }
 
         // List -> ordered sequence of data which can contain duplicate values
         // ArrayList, LinkedList,  Vector, Stack
@@ -73,6 +90,10 @@ public class CollectionsFramework {
         System.out.println(names2.poll());
         System.out.println(names2.poll());
         System.out.println(names2.poll());
+
+
+
+
 
 
 
